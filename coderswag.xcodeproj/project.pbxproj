@@ -13,6 +13,8 @@
 		03C1CA6E217E25EA004240AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C1CA6D217E25EA004240AB /* Assets.xcassets */; };
 		03C1CA71217E25EA004240AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C1CA6F217E25EA004240AB /* LaunchScreen.storyboard */; };
 		03C1CA7C217E30A7004240AB /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1CA7B217E30A7004240AB /* CategoryCell.swift */; };
+		03C1CA80217E35CC004240AB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1CA7F217E35CC004240AB /* Category.swift */; };
+		03C1CA83217E3804004240AB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1CA82217E3804004240AB /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		03C1CA70217E25EA004240AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C1CA72217E25EA004240AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C1CA7B217E30A7004240AB /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		03C1CA7F217E35CC004240AB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		03C1CA82217E3804004240AB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		03C1CA65217E25E9004240AB /* coderswag */ = {
 			isa = PBXGroup;
 			children = (
+				03C1CA81217E37F8004240AB /* Services */,
 				03C1CA7A217E303D004240AB /* View */,
 				03C1CA79217E3028004240AB /* Model */,
 				03C1CA78217E301D004240AB /* Controller */,
@@ -79,6 +84,7 @@
 		03C1CA79217E3028004240AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				03C1CA7F217E35CC004240AB /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				03C1CA7B217E30A7004240AB /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		03C1CA81217E37F8004240AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				03C1CA82217E3804004240AB /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				03C1CA69217E25E9004240AB /* CategoriesVC.swift in Sources */,
 				03C1CA67217E25E9004240AB /* AppDelegate.swift in Sources */,
 				03C1CA7C217E30A7004240AB /* CategoryCell.swift in Sources */,
+				03C1CA80217E35CC004240AB /* Category.swift in Sources */,
+				03C1CA83217E3804004240AB /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
